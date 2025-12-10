@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-Resume - Education</title>
+
+<style>
+    body {
+        font-family: "Times New Roman", serif;
+        background-image: url("bg.jpg"); 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+margin: 0;                  
+    padding: 0;
+    }
+
+body::before {
+        content: "";
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background: rgba(0, 0, 0, 0.45);
+        z-index: -1;
+    }
+
+    .section-title {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+        text-transform: uppercase;
+color: #ffffff;
+    }
+
+    .edu-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .edu-box {
+        display: flex;
+        background: #ffffff;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        align-items: center;
+        gap: 20px;
+    }
+
+    .edu-box img {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 2px solid #ccc;
+        cursor: pointer; 
+    }
+
+    .edu-box img:hover {
+        transform: scale(1.03);
+    }
+
+    .edu-text h3 {
+        margin: 0;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .edu-text p {
+        margin: 5px 0;
+        font-size: 16px;
+    }
+ 
+    footer {
+        background: #3b4b63;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 50px;
+    }
+</style>
+</head>
+
+<body>
+
+<h1 class="section-title">Educational Background</h1>
+
+<div class="edu-container">
+
+    
+    <div class="edu-box">
+        <img src="uitm.jpg" alt="Formal Picture" class="profile-pic"></a>
+        <div class="edu-text">
+            <h3>University</h3>
+            <p><strong>Institution:</strong> UiTM Cawangan Kedah</p>
+            <p><strong>Course:</strong> Bachelor of Information Science (Hons) Library Management</p>
+<p><strong>CGPA:</strong> 3.31</p>
+<p>
+<a href="https://kedah.uitm.edu.my" target="_blank">
+        <button>UiTM Cawangan Kedah</button>
+    </a></p>
+        </div>
+    </div>
+
+
+    <div class="edu-box">
+        <img src="f6.jpg" alt="Formal Picture" class="profile-pic"></a>
+        <div class="edu-text">
+            <h3>Pra-University</h3>
+            <p><strong>School:</strong> SMK Sultan Abdul Jalil Shah</p>
+<p><strong>Year of Completion:</strong> 2021–2023</p>
+<p><strong>Stream:</strong> Social Science</p>
+<p><strong>CGPA:</strong> 3.09</p>
+
+        </div>
+    </div>
+
+    
+    <div class="edu-box">
+        <img src="smk.jpg" alt="Formal Picture" class="profile-pic"></a>
+        <div class="edu-text">
+            <h3>SPM/PT3</h3>
+            <p><strong>School:</strong> SMK Dato' Seri Maharaja Lela</p>
+            <p><strong>Year of Completion:</strong> 2016–2021</p>
+<p><strong>Result:</strong><i>SPM:</i>6A 3B<i> PT3:</i> 4A 2B 3C</p>
+        </div>
+    </div>
+
+    
+    <div class="edu-box">
+        <img src="skcl2.jpg" alt="Formal Picture" class="profile-pic"></a>
+        <div class="edu-text">
+            <h3>UPSR</h3>
+            <p><strong>School:</strong> SK Changkat Lada 2</p>
+            <p><strong>Year of Completion:</strong> 2015</p>
+<p><strong>Result:</strong> 3A 2B</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    © 2025 My E-Resume | Designed by Me
+</footer>
+
+
+</body>
+</html>

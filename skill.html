@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-Resume - Skills</title>
+
+<style>
+    body {
+        font-family: "Times New Roman", serif;
+        background-image: url("bg.jpg");
+        background-size: cover;
+        background-position: center;
+        margin: 0;                  
+    padding: 0;
+    }
+
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background: rgba(0, 0, 0, 0.45);
+        z-index: -1;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+        text-align: center;
+        color: #fff;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .skill-section {
+        margin-top: 30px;
+    }
+
+    .skill-title {
+        font-size: 28px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #ffffff;
+    }
+
+    
+    .skill-box {
+        background: rgba(255, 255, 255, 0.2);
+        padding: 20px;
+        border-radius: 15px;
+        backdrop-filter: blur(6px);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        margin-bottom: 20px;
+        transition: 0.3s ease;
+    }
+
+    .skill-box:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 14px rgba(0,0,0,0.45);
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        font-size: 20px;
+    }
+
+    ul li {
+        margin: 10px 0;
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.25);
+        border-radius: 10px;
+        backdrop-filter: blur(4px);
+        color: #fff;
+        font-weight: bold;
+    }
+footer {
+        background: #3b4b63;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 50px;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>My Skills</h1>
+
+    
+    <div class="skill-section">
+        <div class="skill-title">Technical Skills</div>
+        <div class="skill-box">
+            <ul>
+                <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+                <li>Canva</li>
+                <li>PowerPoint Design</li>
+                <li>Google Docs</li>
+            </ul>
+        </div>
+    </div>
+
+    
+    <div class="skill-section">
+        <div class="skill-title">Soft Skills</div>
+        <div class="skill-box">
+            <ul>
+                <li>Communication</li>
+                <li>Teamwork</li>
+                <li>Problem Solving</li>
+                <li>Critical Thinking</li>
+                <li>Good Time Management</li>
+            </ul>
+        </div>
+    </div>
+
+    
+    <div class="skill-section">
+        <div class="skill-title">Languages</div>
+        <div class="skill-box">
+            <ul>
+                <li>Malay</li>
+                <li>English</li>
+                <li>Mandarin (Basic)</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<footer>
+    © 2025 My E-Resume | Designed by Me
+</footer>
+</body>
+</html>
